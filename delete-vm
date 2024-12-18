@@ -1,0 +1,7 @@
+#!/bin/sh
+clear
+read -p "VM Name: " name_0
+
+rm -rf ~/.config/qemu-vms/$name_0.qcow2
+
+echo -e "\e[31m$name_0 was deleted\e[0m"
