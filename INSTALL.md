@@ -3,7 +3,7 @@ THIS HAS ONLY BEEN TESTED ON ALPINE!
 
 On Debian: 
 ```
-sudo apt-get install libvirt-clients libvirt-daemon-system qemu-kvm bridge-utils dnsmasq qemu-system
+sudo apt-get install libvirt-clients qemu-system
 ```
 On Fedora:
 ```
