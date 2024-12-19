@@ -8,7 +8,7 @@ Make sure you have qemu and kvm installed!
 git clone https://github.com/j0shua-daniel/vm-manager
 cd vm-manager
 chmod +x create-vm launch-vm delete-vm vm-manager
-sudo  mv launch-vm delete-vm vm-manager /usr/bin/
+sudo  mv create-vm launch-vm delete-vm vm-manager /usr/bin/
 ```
 
 ## Creating a vm:
