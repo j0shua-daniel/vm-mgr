@@ -3,7 +3,7 @@ A set of bash scripts to make using qemu a breeze.
 
 ## Install:
 THIS HAS ONLY BEEN TESTED ON ALPINE LINUX.
-(Install KVM & qemu)[https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md]
+[Install KVM & qemu](https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md)
 
 ```
 git clone https://github.com/j0shua-daniel/vm-manager
