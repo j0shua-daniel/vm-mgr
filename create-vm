@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 clear
 read -p "VM Name: " dis_0
 read -p "Cpu Cores: " core_0
