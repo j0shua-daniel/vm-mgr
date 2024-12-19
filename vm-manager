@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Bash Menu Script Example
 mkdir -p ~/.config/qemu-vms/
 PS3='Please enter your choice: '
