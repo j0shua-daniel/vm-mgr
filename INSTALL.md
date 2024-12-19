@@ -3,7 +3,7 @@ THIS HAS ONLY BEEN TESTED ON ALPINE!
 
 On Debian: 
 ```
-sudo apt-get install libvirt-clients qemu-system
+sudo apt-get install libvirt-clients qemu-system qemu-kvm libvirt-daemon 
 ```
 On Fedora:
 ```
