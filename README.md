@@ -2,7 +2,8 @@
 A set of bash scripts to make using qemu a breeze.
 
 ## Install:
-Make sure you have qemu and kvm installed!
+THIS HAS ONLY BEEN TESTED ON ALPINE LINUX.
+(Install KVM & qemu)[https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md]
 
 ```
 git clone https://github.com/j0shua-daniel/vm-manager
