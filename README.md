@@ -12,6 +12,7 @@ sudo  mv launch-vm delete-vm vm-manager /usr/bin/
 ```
 
 ## Creating a vm:
+REMEMBER: When setting ram & disk size end the number with G or M. So when setting ram don't do "3000" do "3000M".
 
 ```
 vm-manager 
