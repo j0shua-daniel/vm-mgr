@@ -13,7 +13,10 @@ THIS HAS ONLY BEEN TESTED ON ALPINE LINUX!
 git clone https://github.com/j0shua-daniel/vm-manager
 cd vm-manager
 chmod +x create-vm launch-vm delete-vm vm-manager
-sudo  mv create-vm launch-vm delete-vm vm-manager /usr/bin/
+sudo  mv create-vm /usr/bin/
+sudo mv start-vm /usr/bin
+sudo mv delete-vm /usr/bin
+sudo mv vm-manager /usr/bin
 ```
 
 ## Creating a vm:
