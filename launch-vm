@@ -1,8 +1,0 @@
-#!/bin/sh
-clear
-read -p "VM Name: " dis_0
-read -p "Cpu Cores: " core_0
-read -p "Ram Size: " ram_0
-
-
-qemu-system-x86_64 -enable-kvm -m $ram_0 -smp $core_0 -hda ~/.config/qemu-vms/$dis_0.qcow2 -boot d -netdev user,id=net0,net=192.168.0.0/24,dhcpstart=192.168.0.9 -device virtio-net-pci,netdev=net0 -vga qxl -device AC97 &
