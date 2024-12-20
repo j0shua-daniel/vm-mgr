@@ -22,7 +22,7 @@ vm-manager
 ```
 You will see this: 
 ```
-1) Launch a VM
+1) Start a VM
 2) Create a VM
 3) Delete a VM
 4) Quit
