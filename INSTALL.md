@@ -1,5 +1,5 @@
 # Install KVM and qemu:
-The following steps have not been tested and may not be helpful...
+
 On Debian: 
 ```
 sudo apt-get install libvirt-clients qemu-system qemu-kvm libvirt-daemon 
@@ -14,7 +14,7 @@ sudo pacman -S qemu-all qemu-img libvirt guestfs-tools libosinfo tuned
 ```
 On Void:
 ```
-sudo xbps-install libvirt qemu polkit
+sudo xbps-install libvirt qemu
 ```
 On Alpine:
 ```
