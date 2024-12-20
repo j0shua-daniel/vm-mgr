@@ -1,6 +1,7 @@
 # VM Manager
 A set of bash scripts to make using qemu a breeze.
-[Gallery](https://github.com/j0shua-daniel/vm-manager/blob/main/gallery.md)
+
+See the [Gallery](https://github.com/j0shua-daniel/vm-manager/blob/main/gallery.md)
 
 ## Install:
 THIS HAS ONLY BEEN TESTED ON ALPINE LINUX!
