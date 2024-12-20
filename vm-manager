@@ -1,0 +1,24 @@
+#!/bin/bash
+# Bash Menu Script Example
+mkdir -p ~/.config/qemu-vms/
+PS3='Please enter your choice: '
+options=("Start a VM" "Create a VM" "Delete a VM" "Quit")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "Start a VM")
+            start-vm
+            ;;
+        "Create a VM")
+            create-vm
+            ;;
+        "Delete a VM")
+            delete-vm
+            ;;
+        "Quit")
+            break
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+done
+
