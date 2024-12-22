@@ -7,7 +7,7 @@ read -p "Disk Size: " disk_0
 clear
 echo "---CHOOSE AN ISO---"
 prompt="Please select a file:"
-options=( $(find ~ -type f -name '*.iso' | sed s/^.*\\/\//) )
+options=( $(find ~ -type f -name '*.iso') )
 
 PS3="$prompt "
 select opt in "${options[@]}" "Quit" ; do 
