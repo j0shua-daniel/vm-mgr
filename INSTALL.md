@@ -30,6 +30,26 @@ doas addgroup $USER libvirt
 doas  rc-update add libvirt-guests
 doas service libvirt-guests start
 ```
+NixOS(NOT TESTED):
+ADD USER TO "libvirtd" group in /etc/nixos/configuration.nix
+```nix
+#in /etc/nixos/configuration.nix
+virtualisation.libvirtd = {
+  enable = true;
+  qemu = {
+    package = pkgs.qemu_kvm;
+    runAsRoot = true;
+    swtpm.enable = true;
+    ovmf = {
+      enable = true;
+      packages = [(pkgs.OVMF.override {
+        secureBoot = true;
+        tpmSupport = true;
+      }).fd];
+    };
+  };
+};
+```
 Freebsd:
 ```
 NOT SUPPORTED
