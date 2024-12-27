@@ -51,6 +51,13 @@ virtualisation.libvirtd = {
   };
 };
 ```
+Gentoo(NOT TESTED):
+
+Please look at the [wiki](https://wiki.gentoo.org/wiki/QEMU)
+```
+sudo emerge --ask app-emulation/qemu
+```
+
 Freebsd:
 ```
 NOT SUPPORTED
