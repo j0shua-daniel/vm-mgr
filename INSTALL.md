@@ -10,7 +10,7 @@ sudo dnf install -y qemu-kvm libvirt virt-install bridge-utils libvirt-devel vir
 ```
 On Arch:
 ```
-sudo pacman -S qemu-all qemu-img libvirt guestfs-tools libosinfo tuned
+sudo pacman -S qemu-desktop qemu-img libvirt guestfs-tools libosinfo tuned
 ```
 On Void:
 ```
