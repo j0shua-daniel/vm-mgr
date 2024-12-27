@@ -4,7 +4,7 @@ Debian:
 ```
 sudo apt-get install libvirt-clients qemu-system qemu-kvm libvirt-daemon 
 ```
-Fedora:
+Fedora(NOT TESTED):
 ```
 sudo dnf install -y qemu-kvm libvirt virt-install bridge-utils libvirt-devel virt-top libguestfs-tools guestfs-tools
 ```
@@ -12,7 +12,7 @@ Arch:
 ```
 sudo pacman -S qemu-desktop qemu-img libvirt guestfs-tools libosinfo tuned
 ```
-Void:
+Void(NOT TESTED):
 ```
 sudo xbps-install libvirt qemu
 ```
