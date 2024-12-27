@@ -65,6 +65,7 @@ Slackware(NOT TESTESD):
 [Read and follow instructions.](https://docs.slackware.com/howtos:general_admin:kvm_libvirt)
 
 Freebsd:
+```
 NOT SUPPORTED
 ```
 NetBSD:
