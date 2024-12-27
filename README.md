@@ -1,4 +1,4 @@
-# VM Mgr
+# Virtual Machine Manager
 A set of minimal bash scripts to simplify and hasten the process of making virtual machines. 
 
 The [gallery.](https://github.com/j0shua-daniel/vm-mgr/blob/main/gallery.md)
