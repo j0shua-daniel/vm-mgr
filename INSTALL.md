@@ -31,6 +31,7 @@ doas  rc-update add libvirt-guests
 doas service libvirt-guests start
 ```
 NixOS(NOT TESTED):
+
 ADD USER TO "libvirtd" group in /etc/nixos/configuration.nix
 ```nix
 #in /etc/nixos/configuration.nix
