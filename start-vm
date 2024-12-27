@@ -31,5 +31,6 @@ read -p "Ram Size: " ram_0
 
 qemu-system-x86_64 -enable-kvm -m $ram_0 -smp $core_0 -hda ~/.config/qemu-vms/$opt.qcow2 -boot d -netdev user,id=net0,net=192.168.0.0/24,dhcpstart=192.168.0.9 -device virtio-net-pci,netdev=net0 -vga qxl -device AC97 &
 
+exit 0
 clear
 
