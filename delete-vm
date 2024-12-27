@@ -2,7 +2,7 @@
 clear
 echo "---CHOOSE A VM---"
 prompt="Please select a file:"
-options=( $(ls -1 ~/.config/vm-manager/* | sed s/^.*\\/\// | sed 's/.qcow2//g') )
+options=( $(ls -1 ~/.config/vm-mgr/* | sed s/^.*\\/\// | sed 's/.qcow2//g') )
 
 
 PS3="$prompt "
@@ -20,7 +20,7 @@ select opt in "${options[@]}" "Quit" ; do
 done 
 
 
-rm -rf ~/.config/vm-manager/$opt.qcow2
+rm -rf ~/.config/vm-mgr/$opt.qcow2
 
 echo -e "\e[31m$opt was deleted\e[0m"
 exit 0
