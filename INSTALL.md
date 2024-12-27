@@ -4,6 +4,10 @@ Debian:
 ```
 sudo apt-get install libvirt-clients qemu-system qemu-kvm libvirt-daemon 
 ```
+OpenSUSE(NOT TESTED):
+```
+sudo zypper install libvirt qemu libvirt-daemon-driver-qemu qemu-kvm
+```
 Fedora(NOT TESTED):
 ```
 sudo dnf install -y qemu-kvm libvirt virt-install bridge-utils libvirt-devel virt-top libguestfs-tools guestfs-tools
