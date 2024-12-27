@@ -19,9 +19,8 @@ select opt in "${options[@]}" "Quit" ; do
     fi
 done 
 
-break
-
 
 rm -rf ~/.config/qemu-vms/$opt.qcow2
 
 echo -e "\e[31m$opt was deleted\e[0m"
+exit 0
