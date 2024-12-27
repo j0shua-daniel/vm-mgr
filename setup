@@ -22,4 +22,4 @@ do
 done
 
 cd ../; rm -rf vm-manager
-exit
+exit 0
