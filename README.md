@@ -10,10 +10,10 @@ For Linux:
 [Install KVM & qemu](https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md)
 
 For FreeBSD
-[Install bhyve](https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md)
+[Install bhyve](https://www.cyberciti.biz/faq/how-to-install-linux-vm-on-freebsd-using-bhyve-and-zfs/)
 
 For NetBSD
-[Install NVMM](https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md)
+[Install NVMM](https://www.netbsd.org/docs/guide/en/chap-virt.html)
 
 ```
 git clone https://github.com/j0shua-daniel/vm-manager
