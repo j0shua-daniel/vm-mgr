@@ -12,7 +12,7 @@ NO SUPPORT FOR BSD YET!
 
 
 ```
-git clone https://github.com/j0shua-daniel/vm-manager
+git clone https://github.com/j0shua-daniel/vm-mgr
 cd vm-mgr
 chmod +x setup
 ./setup
