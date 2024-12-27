@@ -4,19 +4,15 @@ A set of bash scripts to make using qemu a breeze.
 See the [Gallery](https://github.com/j0shua-daniel/vm-manager/blob/main/gallery.md)
 
 ## Install:
-THIS HAS ONLY BEEN TESTED ON ALPINE LINUX!
-
+NOT TESTED ON FEDORA & VOID LINUX!
 
 [Install KVM & qemu](https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md)
 
 ```
 git clone https://github.com/j0shua-daniel/vm-manager
 cd vm-manager
-chmod +x create-vm launch-vm delete-vm vm-manager
-sudo  mv create-vm /usr/bin/
-sudo mv start-vm /usr/bin
-sudo mv delete-vm /usr/bin
-sudo mv vm-manager /usr/bin
+chmod +x setup
+./setup
 ```
 
 ## Creating a vm:
