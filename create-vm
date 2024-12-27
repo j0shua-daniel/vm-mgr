@@ -42,4 +42,4 @@ echo "1"
 
 qemu-system-x86_64 -enable-kvm -m $ram_0 -smp $core_0 -hda ~/.config/qemu-vms/$dis_0.qcow2 -boot d -cdrom $opt -netdev user,id=net0,net=192.168.0.0/24,dhcpstart=192.168.0.9 -device virtio-net-pci,netdev=net0 -vga qxl -device AC97 &
 disown
-break
+exit 0
