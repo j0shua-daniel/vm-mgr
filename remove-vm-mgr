@@ -11,3 +11,5 @@ sudo rm /usr/bin/create-vm
 sudo rm /usr/bin/start-vm
 sudo rm /usr/bin/delete-vm
 sudo rm /usr/bin/help-vm
+cd ../; rm -rf vm-mgr
+exit 0
