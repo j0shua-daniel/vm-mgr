@@ -22,4 +22,5 @@ do
 done
 
 cd ../; rm -rf vm-manager
+cd ~
 break
