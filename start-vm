@@ -19,6 +19,7 @@ select opt in "${options[@]}" "Quit" ; do
         echo "Invalid option. Try another one."
     fi
 done    
+exit 0
 
 clear
 
