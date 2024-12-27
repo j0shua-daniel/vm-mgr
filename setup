@@ -21,3 +21,5 @@ do
     esac
 done
 
+cd ../; rm -rf vm-manager
+break
