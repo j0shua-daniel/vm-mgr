@@ -1,0 +1,28 @@
+#!/bin/bash
+# Bash Menu Script Example
+mkdir -p ~/.config/vm-mgr/
+PS3='Option: '
+options=("Start a VM" "Create a VM" "Delete a VM" "Help" "Quit")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "Start a VM")
+            start-vm; break
+            ;;
+        "Create a VM")
+            create-vm; break
+            ;;
+        "Delete a VM")
+            delete-vm; break
+            ;;
+	"Help")
+	    help-vm; break
+	    ;;
+        "Quit")
+            break
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+done
+
+exit 0
