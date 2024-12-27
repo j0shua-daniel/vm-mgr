@@ -3,6 +3,9 @@ clear
 echo -e "
 Type the number next to the option you want to execute, so to start a VM type "1"
 
+When setting ram or disk sizes please end the size with "M" (for megabyte) or "G" (gigabyte). 
+So when setting disk size do 4G or 4000M (same applies to ram!) 
+
 All Virtual Machine(VM) disks are stored in ~/.config/vm-manager/
 
 1) Start a VM - start an already created vm.
