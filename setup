@@ -1,0 +1,23 @@
+#!/bin/bash
+chmod +x *
+PS3='Please choose an OS: '
+options=("FreeBSD(bhyve)" "NetBSD(NVMM)" "Linux(KVM)" "Quit")
+select opt in "${options[@]}"
+do
+    case $opt in
+	"FreeBSD(bhyve)")
+            ./install-freebsd  
+            ;;
+        "NetBSD(NVMM)")
+            ./install-netbsd
+            ;;
+        "Linux(KVM)")
+            ./install-linux
+            ;;
+        "Quit")
+            break
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+done
+

@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e "\e[31mNOT SUPPORTED YET\e[0m"
