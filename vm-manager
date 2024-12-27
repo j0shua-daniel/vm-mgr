@@ -7,13 +7,13 @@ select opt in "${options[@]}"
 do
     case $opt in
         "Start a VM")
-            start-vm
+            start-vm; break
             ;;
         "Create a VM")
-            create-vm
+            create-vm; break
             ;;
         "Delete a VM")
-            delete-vm
+            delete-vm; break
             ;;
         "Quit")
             break
@@ -22,4 +22,4 @@ do
     esac
 done
 
-
+exit 0
