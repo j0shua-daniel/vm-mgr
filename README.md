@@ -6,7 +6,14 @@ See the [Gallery](https://github.com/j0shua-daniel/vm-manager/blob/main/gallery.
 ## Install:
 NOT TESTED ON FEDORA & VOID LINUX!
 
+For Linux:
 [Install KVM & qemu](https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md)
+
+For FreeBSD
+[Install bhyve](https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md)
+
+For NetBSD
+[Install NVMM](https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md)
 
 ```
 git clone https://github.com/j0shua-daniel/vm-manager
