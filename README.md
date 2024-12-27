@@ -1,5 +1,5 @@
 # VM Manager
-A set of bash scripts to make using qemu a breeze.
+A set of minimal bash scripts to simplify and hasten the process of makeing virtual machines. 
 
 The [gallery.](https://github.com/j0shua-daniel/vm-manager/blob/main/gallery.md)
 
