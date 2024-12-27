@@ -19,7 +19,7 @@ chmod +x setup
 ```
 
 ## Creating a vm:
-REMEMBER: When setting ram & disk size end the number with G or M. So when setting ram don't do "3000" do "3000M".
+Type "4" to get the help script, read through it carefully, if there are any problems open an issue.
 
 ```
 vm-manager 
