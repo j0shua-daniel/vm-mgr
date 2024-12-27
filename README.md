@@ -13,7 +13,7 @@ NO SUPPORT FOR BSD YET!
 
 ```
 git clone https://github.com/j0shua-daniel/vm-manager
-cd vm-manager
+cd vm-mgr
 chmod +x setup
 ./setup
 ```
@@ -22,7 +22,7 @@ chmod +x setup
 Type "4" to get the help script, read through it carefully, if there are any problems open an issue.
 
 ```
-vm-manager 
+vm-mgr
 ```
 You will see this: 
 ```
