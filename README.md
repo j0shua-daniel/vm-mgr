@@ -6,13 +6,13 @@ See the [Gallery](https://github.com/j0shua-daniel/vm-manager/blob/main/gallery.
 ## Install:
 Not tested on void, fedora and bsd!
 
-For Linux:
+Linux:
 [Install KVM & qemu](https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md)
 
-For FreeBSD
+FreeBSD (Not working, wiki and scripts still being made!)
 [Install bhyve](https://www.cyberciti.biz/faq/how-to-install-linux-vm-on-freebsd-using-bhyve-and-zfs/)
 
-For NetBSD
+NetBSD (Not working, wiki and scripts still being made!)
 [Install NVMM](https://www.netbsd.org/docs/guide/en/chap-virt.html)
 
 ```
