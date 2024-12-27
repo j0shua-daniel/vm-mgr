@@ -17,7 +17,9 @@ select opt in "${options[@]}" "Quit" ; do
     else
         echo "Invalid option. Try another one."
     fi
-done    
+done 
+
+break
 
 
 rm -rf ~/.config/qemu-vms/$opt.qcow2
