@@ -29,7 +29,8 @@ You will see this:
 1) Start a VM
 2) Create a VM
 3) Delete a VM
-4) Quit
+4) Help
+5) Quit
 Please enter your choice:
 ```
 Type "2" to create your first vm!
