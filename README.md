@@ -4,6 +4,9 @@ A set of minimal bash scripts to simplify and hasten the process of making virtu
 The [gallery.](https://github.com/j0shua-daniel/vm-mgr/blob/main/gallery.md)
 
 ## Install:
+
+For those using doas do run `alias "sudo"="doas"` in your terminal.
+
 Not tested on void & fedora. 
 
 NO SUPPORT FOR BSD YET!
@@ -34,3 +37,10 @@ You will see this:
 Please enter your choice:
 ```
 Type "2" to create your first vm!
+## Uninstall
+```
+git clone https://github.com/j0shua-daniel/vm-mgr
+cd vm-mgr
+chmod +x remove-vm-mgr
+sudo ./remove-vm-mgr
+```
