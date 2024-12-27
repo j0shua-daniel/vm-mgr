@@ -10,9 +10,11 @@ Linux:
 
 [Install KVM & qemu](https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md)
 
+
 FreeBSD (Not working, wiki and scripts still being made!)
 
 [Install bhyve](https://www.cyberciti.biz/faq/how-to-install-linux-vm-on-freebsd-using-bhyve-and-zfs/)
+
 
 NetBSD (Not working, wiki and scripts still being made!)
 
