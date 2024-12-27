@@ -19,7 +19,7 @@ select opt in "${options[@]}" "Quit" ; do
         echo "Invalid option. Try another one."
     fi
 done    
-exit 0
+
 
 clear
 
@@ -33,4 +33,5 @@ qemu-system-x86_64 -enable-kvm -m $ram_0 -smp $core_0 -hda ~/.config/qemu-vms/$o
 
 exit 0
 clear
+
 
