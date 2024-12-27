@@ -5,7 +5,7 @@ The [gallery.](https://github.com/j0shua-daniel/vm-mgr/blob/main/gallery.md)
 
 ## Install:
 
-For those using doas do run `alias "sudo"="doas"` in your terminal.
+For those using doas do run `alias "sudo"="doas"` in your terminal before doing the following things: 
 
 Not tested on void & fedora. 
 
