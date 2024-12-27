@@ -6,13 +6,13 @@ select opt in "${options[@]}"
 do
     case $opt in
 	"FreeBSD(bhyve)")
-            ./install-freebsd  
+            ./install-freebsd; break  
             ;;
         "NetBSD(NVMM)")
-            ./install-netbsd
+            ./install-netbsd; break
             ;;
         "Linux(KVM)")
-            ./install-linux
+            ./install-linux; break
             ;;
         "Quit")
             break
