@@ -4,7 +4,7 @@ A set of bash scripts to make using qemu a breeze.
 See the [Gallery](https://github.com/j0shua-daniel/vm-manager/blob/main/gallery.md)
 
 ## Install:
-NOT TESTED ON FEDORA & VOID LINUX!
+Not tested on void, fedora and bsd!
 
 For Linux:
 [Install KVM & qemu](https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md)
