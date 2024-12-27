@@ -4,21 +4,11 @@ A set of bash scripts to make using qemu a breeze.
 See the [Gallery](https://github.com/j0shua-daniel/vm-manager/blob/main/gallery.md)
 
 ## Install:
-Not tested on void, fedora and bsd!
+Not tested on void & fedora. 
 
-Linux:
+NO SUPPORT FOR BSD YET!
 
-[Install KVM & qemu](https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md)
-
-
-FreeBSD (Not working, wiki and scripts still being made!)
-
-[Install bhyve](https://www.cyberciti.biz/faq/how-to-install-linux-vm-on-freebsd-using-bhyve-and-zfs/)
-
-
-NetBSD (Not working, wiki and scripts still being made!)
-
-[Install NVMM](https://www.netbsd.org/docs/guide/en/chap-virt.html)
+[Install & Setup VM packages](https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md)
 
 
 ```
