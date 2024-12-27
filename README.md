@@ -1,14 +1,14 @@
-# VM Manager
+# VM Mgr
 A set of minimal bash scripts to simplify and hasten the process of making virtual machines. 
 
-The [gallery.](https://github.com/j0shua-daniel/vm-manager/blob/main/gallery.md)
+The [gallery.](https://github.com/j0shua-daniel/vm-mgr/blob/main/gallery.md)
 
 ## Install:
 Not tested on void & fedora. 
 
 NO SUPPORT FOR BSD YET!
 
-[Install & Setup VM packages](https://github.com/j0shua-daniel/vm-manager/blob/main/INSTALL.md)
+[Install & Setup VM packages](https://github.com/j0shua-daniel/vm-mgr/blob/main/INSTALL.md)
 
 
 ```
