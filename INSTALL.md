@@ -62,6 +62,7 @@ Please look at the [wiki](https://wiki.gentoo.org/wiki/QEMU)
 sudo emerge --ask app-emulation/qemu
 ```
 Slackware(NOT TESTESD):
+
 [Read and follow instructions.](https://docs.slackware.com/howtos:general_admin:kvm_libvirt)
 
 Freebsd:
