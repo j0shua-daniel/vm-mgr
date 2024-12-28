@@ -7,7 +7,6 @@ The [gallery.](https://github.com/j0shua-daniel/vm-mgr/blob/main/gallery.md)
 
 For those using doas do run `alias "sudo"="doas"` in your terminal. 
 
-Not tested on void & fedora. 
 
 [NO SUPPORT FOR BSD YET!](https://github.com/j0shua-daniel/vm-mgr/blob/main/bsd.md)
 
