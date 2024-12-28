@@ -39,10 +39,12 @@ You will see this:
 Option:
 ```
 Type "2" to create your first vm!
-## Uninstall
+## Uninstall:
 ```
 git clone https://github.com/j0shua-daniel/vm-mgr
 cd vm-mgr
 chmod +x remove-vm-mgr
 sudo ./remove-vm-mgr
 ```
+## About:
+This project is something I have been wanting to do for a very long time, I always find VM software always a bit glitchy, sometimes too simple and even too complex. These scripts are made to ensure speed and simplicity. Yes they won't be flawless (there are going to be glitches!). Also I found that VM software on BSD is very difficult and that is why im planning to add BSD support soon! 
