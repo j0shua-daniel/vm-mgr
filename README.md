@@ -36,7 +36,7 @@ You will see this:
 3) Delete a VM
 4) Help
 5) Quit
-Please enter your choice:
+Option:
 ```
 Type "2" to create your first vm!
 ## Uninstall
