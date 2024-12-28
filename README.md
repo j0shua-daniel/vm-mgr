@@ -9,7 +9,7 @@ For those using doas do run `alias "sudo"="doas"` in your terminal.
 
 Not tested on void & fedora. 
 
-NO SUPPORT FOR BSD YET!
+[NO SUPPORT FOR BSD YET!](https://github.com/j0shua-daniel/vm-mgr/blob/main/bsd.md)
 
 [Install & Setup VM packages](https://github.com/j0shua-daniel/vm-mgr/blob/main/INSTALL.md)
 
