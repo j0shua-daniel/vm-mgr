@@ -22,7 +22,8 @@ chmod +x setup
 ```
 
 ## Usage:
-[video](https://github.com/j0shua-daniel/images/blob/main/2024-12-28%2008-37-41.mp4)
+Here is a [video](https://github.com/j0shua-daniel/images/blob/main/2024-12-28%2008-37-41.mp4) (requires a download!)
+
 Type "4" to get the help script, read through it carefully, if there are any problems open an issue.
 
 ```
