@@ -3,7 +3,7 @@ clear
 echo -e "
 Type the number next to the option you want to execute, so to start a VM type "1"
 
-We recomend to do set threads to about half $(nproc)
+We recomend to do set threads to about half of $(nproc)
 
 When setting memory or disk sizes please end the size with "M" (for megabyte) or "G" (gigabyte). 
 So when setting disk size do 4G or 4000M (same applies to ram!) 
