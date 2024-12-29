@@ -53,3 +53,4 @@ This project is something I have been wanting to do for a very long time, I alwa
 2. Make menus more clear.
 3. Fix any bugs.
 4. Make the network bridged so that you can ssh into your vm!
+5. Add support for starting created vms with an iso/img. Since only when first created can they start with an iso.
