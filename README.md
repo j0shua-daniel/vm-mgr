@@ -7,11 +7,7 @@ The [gallery.](https://github.com/j0shua-daniel/vm-mgr/blob/main/gallery.md)
 
 For those using doas do run `alias "sudo"="doas"` in your terminal. 
 
-
-[NO SUPPORT FOR BSD YET!](https://github.com/j0shua-daniel/vm-mgr/blob/main/bsd.md)
-
-[Install & Setup VM packages](https://github.com/j0shua-daniel/vm-mgr/blob/main/INSTALL.md)
-
+[Install & Setup VM packages](https://github.com/j0shua-daniel/vm-mgr/wiki)
 
 ```
 git clone https://github.com/j0shua-daniel/vm-mgr
