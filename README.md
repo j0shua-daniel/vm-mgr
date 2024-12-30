@@ -1,7 +1,9 @@
 # Virtual Machine Manager
 A set of minimal bash scripts to simplify and hasten the process of making virtual machines. 
 
-The [gallery.](https://github.com/j0shua-daniel/vm-mgr/blob/main/gallery.md)
+Virtual Machines with 255threads, on a 12 thread computer!
+
+![255th](https://github.com/j0shua-daniel/images/blob/main/255cores.png?raw=true)
 
 ## Install:
 
