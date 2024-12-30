@@ -37,7 +37,7 @@ Type "2" to create your first vm!
 
 ## Todo:
 
-- [] Add BSD support.
+- [ ] Add BSD support.
 - [x] Make menus more clear.
 - [x] Fix bugs.
 - [ ] Bridge the network.
