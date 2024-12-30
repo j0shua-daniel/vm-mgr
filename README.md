@@ -7,7 +7,7 @@ Virtual Machines with 255threads, on a 12 thread computer!
 
 ## Install:
 
-For those using doas do run `alias "sudo"="doas"` in your terminal. 
+Run `alias "sudo"="doas"` in your terminal if you use `doas`. 
 
 [Install & Setup VM packages](https://github.com/j0shua-daniel/vm-mgr/wiki)
 
