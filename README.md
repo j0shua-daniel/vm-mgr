@@ -35,12 +35,11 @@ Option:
 ```
 Type "2" to create your first vm!
 
-## About:
-This project is something I have been wanting to do for a very long time, I always find VM software always a bit glitchy, sometimes too simple and even too complex. These scripts are made to ensure speed and simplicity. Yes they won't be flawless (there are going to be glitches!). Also I found that VM software on BSD is very difficult and that is why im planning to add BSD support soon! 
-
 ## Todo:
-1. Add BSD support.
-2. Make menus more clear.
-3. Fix any bugs.
-4. Make the network bridged so that you can ssh into your vm!
-5. Add support for starting created vms with an iso/img. Since only when first created can they start with an iso.
+
+- [] Add BSD support.
+- [x] Make menus more clear.
+- [x] Fix bugs.
+- [ ] Bridge the network.
+- [ ] Enable starting created vms without disks and only isos/imgs.
+
