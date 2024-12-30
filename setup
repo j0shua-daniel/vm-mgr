@@ -1,18 +1,23 @@
 #!/bin/bash
 chmod +x *
+mkdir -p ~/.config/vm-mgr/
 PS3='Please choose an OS: '
 options=("FreeBSD(bhyve)" "NetBSD(NVMM)" "Linux(KVM)" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
 	"FreeBSD(bhyve)")
-            ./install-freebsd; break  
+            echo -e "\e[31mNOT SUPPORTED YET\e[0m"
+	    break
             ;;
         "NetBSD(NVMM)")
-            ./install-netbsd; break
+            echo -e "\e[31mNOT SUPPORTED YET\e[0m"
+	    break
             ;;
         "Linux(KVM)")
-            ./install-linux; break
+            sudo mv vm-mgr /usr/bin/
+	    cd ../; rm -rf vm-mgr
+            break
             ;;
         "Quit")
             break
