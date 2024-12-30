@@ -1,0 +1,140 @@
+#!/bin/bash
+# Bash Menu Script Example
+mkdir -p ~/.config/vm-mgr/
+PS3='Option: '
+options=("Start a VM" "Create a VM" "Delete a VM" "Help" "Quit")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "Start a VM")
+            clear
+
+	    echo "---CHOOSE A VM---"
+	    prompt="VM:"
+	    options=( $(ls -1 ~/.config/vm-mgr/* | sed s/^.*\\/\// | sed 's/.qcow2//g') )
+
+	    PS3="$prompt "
+	    select opt in "${options[@]}" "Quit" ; do 
+    	    if (( REPLY == 1 + ${#options[@]} )) ; then
+         	    exit
+
+    	    elif (( REPLY > 0 && REPLY <= ${#options[@]} )) ; then
+        #echo  "You picked $opt which is file $REPLY"
+        	    break
+
+    	    else
+          	    echo "Invalid option. Try another one."
+      	    fi
+	    done    
+
+	    clear
+
+	    read -p "Threads: " core_0
+	    read -p "Memory: " ram_0
+
+
+	    qemu-system-x86_64 -enable-kvm -m $ram_0 -smp $core_0 -hda ~/.config/vm-mgr/$opt.qcow2 -boot d -netdev user,id=net0,net=192.168.0.0/24,dhcpstart=192.168.0.9 -device virtio-net-pci,netdev=net0 -vga qxl -device AC97 &
+
+       	    exit 0
+	    clear
+	    break
+            ;;
+        "Create a VM")
+            clear
+            read -p "VM Name: " dis_0
+            read -p "Threads: " core_0
+            read -p "Memory: " ram_0
+            read -p "Disk Size: " disk_0
+            clear
+            echo "---Choose An Image---"
+            prompt="Image:"
+            options=( $(find ~ -type f -name '*.iso'; find ~ -type f -name '*.img') )
+
+            PS3="$prompt "
+            select opt in "${options[@]}" "Quit" ; do 
+                if (( REPLY == 1 + ${#options[@]} )) ; then
+                    exit
+
+                elif (( REPLY > 0 && REPLY <= ${#options[@]} )) ; then
+                    break
+
+                else
+                    echo "Invalid option. Try another one."
+                fi
+            done    
+
+
+            ls -ld "$opt"
+
+
+            qemu-img create -f qcow2 ~/.config/vm-mgr/$dis_0.qcow2 $disk_0
+
+
+            echo -e "\e[33mConfig Done!\e[0m"
+            sleep 0.7
+            clear
+            echo "Staring $dis_0 in"
+            echo "3"
+            sleep 0.8
+            echo "2"
+            sleep 0.8
+            echo "1"
+
+            qemu-system-x86_64 -enable-kvm -m $ram_0 -smp $core_0 -hda ~/.config/vm-mgr/$dis_0.qcow2 -boot d -cdrom $opt -netdev user,id=net0,net=192.168.0.0/24,dhcpstart=192.168.0.9 -device virtio-net-pci,netdev=net0 -vga qxl -device AC97 &
+            disown
+            exit 0
+            break
+            ;;
+        "Delete a VM")
+            clear
+            echo "---Choose a vm to delete---"
+            prompt="VM:"
+            options=( $(ls -1 ~/.config/vm-mgr/* | sed s/^.*\\/\// | sed 's/.qcow2//g') )
+
+
+            PS3="$prompt "
+            select opt in "${options[@]}" "Quit" ; do 
+                if (( REPLY == 1 + ${#options[@]} )) ; then
+                    exit
+
+                elif (( REPLY > 0 && REPLY <= ${#options[@]} )) ; then
+        #echo  "You picked $opt which is file $REPLY"
+                    break
+
+                else
+                    echo "Invalid option. Try another one."
+                fi
+            done 
+
+            rm -rf ~/.config/vm-mgr/$opt.qcow2
+
+            echo -e "\e[31m$opt was deleted\e[0m"
+            exit 0
+            break
+            ;;
+	"Help")
+	    clear
+            echo -e "
+            Type the number next to the option you want to execute, so to start a VM type "1"
+
+            We recomend to do set threads to about half $(nproc)
+
+            When setting memory or disk sizes please end the size with "M" (for megabyte) or "G" (gigabyte). 
+            So when setting disk size do 4G or 4000M (same applies to ram!) 
+
+            All Virtual Machine(VM) disks are stored in ~/.config/vm-mgr/
+
+	    1) Start a VM - start an already created vm.
+	    2) Create a VM - Make a VM install the OS from the img then start the vm from vm-manager and the "Start a VM" option.
+	    3) Delete a VM - delete any VM.
+	    "
+	    break
+	    ;;
+        "Quit")
+            break
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+done
+
+exit 0
