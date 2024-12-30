@@ -19,7 +19,7 @@ chmod +x setup
 ```
 
 ## Usage:
-Here is a [video](https://github.com/j0shua-daniel/images/blob/main/vm-mgr.gif?raw=true) 
+Here is a [video](https://github.com/j0shua-daniel/images/blob/main/vm-mgr.gif).
 
 Type "4" to get the help script, read through it carefully, if there are any problems open an issue.
 
