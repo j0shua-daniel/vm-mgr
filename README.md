@@ -1,7 +1,7 @@
 # Virtual Machine Manager
 A set of minimal bash scripts to simplify and hasten the process of making virtual machines. 
 
-Virtual Machines with 255 threads, on a 12 thread computer!
+Virtual Machine with 255 threads, on a 12 thread computer!
 
 ![255th](https://github.com/j0shua-daniel/images/blob/main/255cores.png?raw=true)
 
