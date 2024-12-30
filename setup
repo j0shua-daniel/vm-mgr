@@ -2,7 +2,7 @@
 chmod +x *
 mkdir -p ~/.config/vm-mgr/
 PS3='Please choose an OS: '
-options=("FreeBSD(bhyve)" "NetBSD(NVMM)" "Linux(KVM)" "Quit")
+options=("FreeBSD(bhyve)" "NetBSD(NVMM)" "Linux(KVM)" "Uninstall" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -18,6 +18,10 @@ do
             sudo mv vm-mgr /usr/bin/
 	    cd ../; rm -rf vm-mgr
             break
+            ;;
+	"Uninstall")
+	    sudo rm /usr/bin/vm-mgr
+	    break
             ;;
         "Quit")
             break
