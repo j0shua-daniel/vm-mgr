@@ -1,6 +1,0 @@
-#!/bin/bash
-sudo  mv create-vm /usr/bin/
-sudo mv start-vm /usr/bin/
-sudo mv delete-vm /usr/bin/
-sudo mv vm-mgr /usr/bin/
-sudo mv help-vm /usr/bin/
