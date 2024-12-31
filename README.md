@@ -44,4 +44,5 @@ Type "2" to create your first vm!
 - [x] Fix bugs.
 - [ ] Bridge the network.
 - [ ] Enable starting created vms without disks and only isos/imgs.
+- [x] Add *.img support.
 
