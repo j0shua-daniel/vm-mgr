@@ -1,5 +1,5 @@
 # Virtual Machine Manager
-A set of minimal bash scripts to simplify and hasten the process of making virtual machines. 
+Blazing fast VM manager, that just works.
 
 Virtual Machine with 255 threads, on a 12 thread computer!
 
