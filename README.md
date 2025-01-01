@@ -1,14 +1,13 @@
 # Virtual Machine Manager
 
- 
-Blazing fast VM manager, that just works.
+[Website](https://jr-om-cs-try.trycloudflare.com/) & [Wiki](https://jr-om-cs-try.trycloudflare.com/wiki/)
 
 <p align="center" width="100%">
     <img width="270px" src="https://github.com/j0shua-daniel/images/blob/main/favcon.png?raw=true"> 
 </p>
 
-<p align="center" href="https://jr-om-cs-try.trycloudflare.com/">Website</p>
- & [Wiki](https://jr-om-cs-try.trycloudflare.com/wiki/)
+<p align="center" ">Blazing fast VM manager, that just works.</p>
+
 
 ## Install:
 
