@@ -7,7 +7,8 @@ Blazing fast VM manager, that just works.
     <img width="270px" src="https://github.com/j0shua-daniel/images/blob/main/favcon.png?raw=true"> 
 </p>
 
-[Website](https://jr-om-cs-try.trycloudflare.com/) & [Wiki](https://jr-om-cs-try.trycloudflare.com/wiki/)
+<p align="center" href="https://jr-om-cs-try.trycloudflare.com/">Website</p>
+ & [Wiki](https://jr-om-cs-try.trycloudflare.com/wiki/)
 
 ## Install:
 
