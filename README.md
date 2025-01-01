@@ -17,7 +17,6 @@ chmod +x setup
 ```
 
 ## Usage:
-Here is a [video](https://github.com/j0shua-daniel/images/blob/main/vm-mgr.gif) (it is a little broken).
 
 ```
 vm-mgr
