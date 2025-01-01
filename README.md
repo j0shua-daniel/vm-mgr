@@ -1,7 +1,7 @@
 # Virtual Machine Manager
 
 <p align="center" width="100%">
-    <img width="33%" src="https://github.com/j0shua-daniel/images/blob/main/favcon.png?raw=true"> 
+    <img width="100px" src="https://github.com/j0shua-daniel/images/blob/main/favcon.png?raw=true"> 
 </p>
  
 Blazing fast VM manager, that just works.
