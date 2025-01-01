@@ -7,7 +7,7 @@ Blazing fast VM manager, that just works.
 
 Run `alias "sudo"="doas"` in your terminal if you use `doas`. 
 
-[Install & Setup VM packages](https://github.com/j0shua-daniel/vm-mgr/wiki)
+[Install & Setup VM packages](https://jr-om-cs-try.trycloudflare.com/wiki/#install-vm-packages)
 
 ```
 git clone https://github.com/j0shua-daniel/vm-mgr
