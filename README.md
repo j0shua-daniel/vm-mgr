@@ -4,7 +4,7 @@
 Blazing fast VM manager, that just works.
 
 <p align="center" width="100%">
-    <img width="300px" src="https://github.com/j0shua-daniel/images/blob/main/favcon.png?raw=true"> 
+    <img width="270px" src="https://github.com/j0shua-daniel/images/blob/main/favcon.png?raw=true"> 
 </p>
 
 [Website](https://jr-om-cs-try.trycloudflare.com/) & [Wiki](https://jr-om-cs-try.trycloudflare.com/wiki/)
