@@ -1,5 +1,5 @@
 # Virtual Machine Manager
- <div style="text-align:center"><img src="https://github.com/j0shua-daniel/images/blob/main/favcon.png?raw=true" /></div>
+ <div style="text-align:center"><img src="https://github.com/j0shua-daniel/images/blob/main/favcon.png?raw=true" width="100"/></div>
 Blazing fast VM manager, that just works.
 
 [Website](https://jr-om-cs-try.trycloudflare.com/) & [Wiki](https://jr-om-cs-try.trycloudflare.com/wiki/)
