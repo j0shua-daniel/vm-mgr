@@ -1,7 +1,7 @@
 # Virtual Machine Manager
 Blazing fast VM manager, that just works.
 
-[Website](https://jr-om-cs-try.trycloudflare.com/)
+[Website](https://jr-om-cs-try.trycloudflare.com/) & [Wiki](https://github.com/j0shua-daniel/vm-mgr/wiki)
 
 ## Install:
 
