@@ -2,7 +2,7 @@
 
 [Website](https://jr-om-cs-try.trycloudflare.com/) & [Wiki](https://jr-om-cs-try.trycloudflare.com/wiki/)
 
-<p align="center" width="100%">
+<p href="https://jr-om-cs-try.trycloudflare.com/" align="center" width="100%">
     <img width="270px" src="https://github.com/j0shua-daniel/images/blob/main/favcon.png?raw=true"> 
 </p>
 
