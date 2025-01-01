@@ -6,9 +6,9 @@
 <p align="center" width="100%">
     <img width="270px" src="https://github.com/j0shua-daniel/images/blob/main/favcon.png?raw=true"> 
 </p>
-</a>
-<p align="center" ">Blazing fast VM manager, that just works.</p>
 
+<p align="center" ">Blazing fast VM manager, that just works.</p>
+</a>
 
 ## Install:
 
