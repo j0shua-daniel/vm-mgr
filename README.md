@@ -21,10 +21,10 @@ curl -s https://raw.githubusercontent.com/j0shua-daniel/vm-mgr/refs/heads/main/s
 
 Distros supported by the installer:
 
-1. Debian
-2. Arch
+1. Debian/Other Debian based distros.
+2. Arch/Other Arch based distros.
 3. Opensuse
-4. Fedora
+4. Fedora/Other RHEL based distros.
 5. Alpine
 6. Void
 
