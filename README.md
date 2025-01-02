@@ -18,9 +18,7 @@ Run `alias "sudo"="doas"` in your terminal if you use `doas`.
 [Install & Setup VM packages](https://jr-om-cs-try.trycloudflare.com/wiki/#install-vm-packages)
 
 ```
-curl -o vm-mgr https://raw.githubusercontent.com/j0shua-daniel/vm-mgr/refs/heads/main/vm-mgr
-chmod +x vm-mgr; mkdir -p ~/.config/vm-mgr/
-sudo mv vm-mgr /usr/bin/
+curl -s https://raw.githubusercontent.com/j0shua-daniel/vm-mgr/refs/heads/main/setup | bash
 ```
 
 ## Usage:
