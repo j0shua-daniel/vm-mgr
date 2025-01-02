@@ -19,6 +19,17 @@ To install vm-mgr, run:
 curl -s https://raw.githubusercontent.com/j0shua-daniel/vm-mgr/refs/heads/main/setup | bash
 ```
 
+Distros supported by the installer:
+
+1. Debian
+2. Arch
+3. Opensuse
+4. Fedora
+5. Alpine
+6. Void
+
+If your distro is not supported by the installer please refer to the [wiki](https://jr-om-cs-try.trycloudflare.com/wiki/).
+
 ## Usage:
 
 ```
