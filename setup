@@ -23,5 +23,5 @@ elif [ -x "$(command -v pacman)" ];
 then
     sudo pacman -S qemu-desktop qemu-img libvirt guestfs-tools libosinfo tuned    
 else
-echo "Sorry, you will have to refer to the '\e]8;;https://jr-om-cs-try.trycloudflare.com/wiki/\e\\wiki\e]8;;\e\\\n'!"
+echo "Failed to install VM packages!"
 fi
