@@ -1,5 +1,4 @@
 #!/bin/bash
-mkdir -p ~/.config/vm-mgr/
 PS3='Option: '
 options=("Start a VM" "Create a VM" "Delete a VM" "Help" "Quit")
 select opt in "${options[@]}"
