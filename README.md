@@ -25,8 +25,8 @@ Distros supported by the installer:
 2. Arch/Arch based.
 3. OpenSUSE.
 4. RHEL/Fedora/RHEL based.
-5. Alpine
-6. Void
+5. Alpine.
+6. Void.
 
 If your distro is not supported by the installer please refer to the [wiki](https://jr-om-cs-try.trycloudflare.com/wiki/#install-vm-packages).
 
