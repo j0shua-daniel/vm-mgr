@@ -7,21 +7,31 @@ sudo chmod +x /usr/bin/vm-mgr; mkdir -p ~/.config/vm-mgr/
 if [ -x "$(command -v apk)" ];
 then
     doas apk add --no-cache libvirt-daemon qemu-img qemu-system-x86_64 qemu-modules openrc bash; doas rc-update add libvirtd; doas service libvirtd start; modprobe tun; su -c " echo 'tun' >> /etc/modules-load.d/tun.conf; cat /etc/modules | grep tun || echo tun >> /etc/modules"; doas addgroup $USER libvirt; doas  rc-update add libvirt-guests; doas service libvirt-guests start
+
 elif [ -x "$(command -v apt-get)" ];
 then
     sudo apt-get --install-recommends install libvirt-clients qemu-system qemu-kvm libvirt-daemon 
+
 elif [ -x "$(command -v dnf)" ];
 then
     sudo dnf install -y qemu-kvm libvirt virt-install bridge-utils libvirt-devel virt-top libguestfs-tools guestfs-tools    
+
 elif [ -x "$(command -v zypper)" ];
 then
     sudo zypper install libvirt qemu libvirt-daemon-driver-qemu qemu-kvm
+
 elif [ -x "$(command -v xbps-install)" ];
 then 
     sudo xbps-install libvirt qemu
+
 elif [ -x "$(command -v pacman)" ];
 then
-    sudo pacman -S qemu-desktop qemu-img libvirt guestfs-tools libosinfo tuned    
+    sudo pacman -S qemu-desktop qemu-img libvirt guestfs-tools libosinfo tuned
+
+elif [ -x "$(command -v swupd)" ];
+then
+    sudo swupd bundle-add kvm-host
+
 else
 echo "Failed to install VM packages!"
 fi
