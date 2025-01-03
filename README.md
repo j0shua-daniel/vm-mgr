@@ -31,8 +31,8 @@ Distros supported by the installer:
 8. ~~Gentoo~~ (comming soon!)
 9. ~~Solus~~ (comming soon!)
 10. ~~Slackware~~ (comming soon!)
-11. ~~Clear Linux~~ (comming soon!)
-
+11. Clear Linux.
+    
 If your distro is not supported by the installer please refer to the [wiki](https://jr-om-cs-try.trycloudflare.com/wiki/#install-vm-packages).
 
 ## Usage:
