@@ -27,11 +27,11 @@ Distros supported by the installer:
 4. RHEL/Fedora/RHEL based.
 5. Alpine.
 6. Void.
-7. ~~Nixos~~(comming soon!)
-8. ~~Gentoo~~(comming soon!)
-9. ~~Solus~~(comming soon!)
-10. ~~Slackware~~(comming soon!)
-11. ~~Clear Linux~~(comming soon!)
+7. ~~Nixos~~ (comming soon!)
+8. ~~Gentoo~~ (comming soon!)
+9. ~~Solus~~ (comming soon!)
+10. ~~Slackware~~ (comming soon!)
+11. ~~Clear Linux~~ (comming soon!)
 
 If your distro is not supported by the installer please refer to the [wiki](https://jr-om-cs-try.trycloudflare.com/wiki/#install-vm-packages).
 
