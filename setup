@@ -14,7 +14,7 @@ then
 
 elif [ -x "$(command -v dnf)" ];
 then
-    sudo dnf install -y qemu-kvm libvirt virt-install bridge-utils libvirt-devel virt-top libguestfs-tools guestfs-tools    
+    sudo dnf install -y qemu-kvm libvirt libvirt-devel    
 
 elif [ -x "$(command -v zypper)" ];
 then
