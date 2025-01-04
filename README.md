@@ -32,6 +32,7 @@ Distros supported by the installer:
 9. ~~Solus~~ (comming soon!)
 10. ~~Slackware~~ (comming soon!)
 11. Clear Linux.
+12. Fedora Silverblue (inside fedora toolbox).
     
 If your distro is not supported by the installer please refer to the [wiki](https://github.com/j0shua-daniel/vm-mgr/wiki).
 
