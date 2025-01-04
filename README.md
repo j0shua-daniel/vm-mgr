@@ -33,7 +33,7 @@ Distros supported by the installer:
 10. ~~Slackware~~ (comming soon!)
 11. Clear Linux.
     
-If your distro is not supported by the installer please refer to the [wiki](https://jr-om-cs-try.trycloudflare.com/wiki/#install-vm-packages).
+If your distro is not supported by the installer please refer to the [wiki](https://github.com/j0shua-daniel/vm-mgr/wiki).
 
 ## Usage:
 
