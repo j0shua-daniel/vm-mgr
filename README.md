@@ -1,6 +1,6 @@
 # Virtual Machine Manager
 
-[Website](https://jr-om-cs-try.trycloudflare.com/) & [Wiki](https://jr-om-cs-try.trycloudflare.com/wiki/)
+[Website](https://coalition-friends-affairs-wages.trycloudflare.com) & [Wiki](https://coalition-friends-affairs-wages.trycloudflare.com/wiki/)
 
 <a href="https://jr-om-cs-try.trycloudflare.com/">
 <p align="center" width="100%">
@@ -34,7 +34,7 @@ Distros supported by the installer:
 11. Clear Linux.
 12. Fedora Silverblue (inside fedora toolbox).
     
-If your distro is not supported by the installer please refer to the [wiki](https://github.com/j0shua-daniel/vm-mgr/wiki).
+If your distro is not supported by the installer please refer to the [wiki](https://coalition-friends-affairs-wages.trycloudflare.com/wiki/).
 
 ## Usage:
 
