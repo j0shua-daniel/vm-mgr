@@ -10,7 +10,7 @@ then
 
 elif [ -x "$(command -v apt-get)" ];
 then
-    sudo apt-get --install-recommends install libvirt-clients qemu-system qemu-kvm libvirt-daemon 
+    sudo apt-get -y --install-recommends install libvirt-clients qemu-system qemu-kvm libvirt-daemon 
 
 elif [ -x "$(command -v dnf)" ];
 then
