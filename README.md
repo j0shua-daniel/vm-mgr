@@ -53,13 +53,12 @@ Option:
 ```
 Type "2" to create your first vm!
 
-## Compaired to alternatives.
-
-1. vm-mgr is more easy to use than just qemu.
-2. vm-mgr allows set ram to be below 64MB unlike virt-manager & gnome-boxes.
-3. vm-mgr allows cpu threads up to 255, while on others (bar qemu itself) you can only go up to what is on your pc.
-4. vm-mgr is cli unlike virt-manager, gnome-boxes, virtualbox and cockpit.
-5. vm-mgr is **planning** to have support for BSD unlike gnome-boxes.
+## Cool Features.
+1. Minimal - vm-mgr is cli based, meaning it uses as little resources as possible!
+2. Can run VM's with less than 64MB ram. - Some other VM managers set the min memory for a VM to 64MB!
+3. Can run VM's with more threads. - Some other VM managers set the max threads to what the host has.
+4. It uses the terminal. - Makes the terminal even more powerful.
+5. BSD support - vm-mgr **plans** to add BSD support!
 
 ## Todo:
 
