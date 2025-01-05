@@ -2,9 +2,9 @@
 
 [Website](https://coalition-friends-affairs-wages.trycloudflare.com) & [Wiki](https://coalition-friends-affairs-wages.trycloudflare.com/wiki/)
 
-<a href="https://jr-om-cs-try.trycloudflare.com/">
+<a href="https://coalition-friends-affairs-wages.trycloudflare.com/">
 <p align="center" width="100%">
-    <img width="270px" src="https://coalition-friends-affairs-wages.trycloudflare.com"> 
+    <img width="270px" src="https://github.com/j0shua-daniel/images/blob/main/favcon.png?raw=true"> 
 </p>
 </a>
 
