@@ -1,8 +1,8 @@
 # Virtual Machine Manager
 
-[Website](https://coalition-friends-affairs-wages.trycloudflare.com) & [Wiki](https://coalition-friends-affairs-wages.trycloudflare.com/wiki/)
+[Website](https://luke-gardening-ver-total.trycloudflare.com/) & [Wiki](https://luke-gardening-ver-total.trycloudflare.com/wiki/)
 
-<a href="https://coalition-friends-affairs-wages.trycloudflare.com/">
+<a href="https://luke-gardening-ver-total.trycloudflare.com/">
 <p align="center" width="100%">
     <img width="270px" src="https://github.com/j0shua-daniel/images/blob/main/favcon.png?raw=true"> 
 </p>
@@ -34,7 +34,7 @@ Distros supported by the installer:
 11. Clear Linux.
 12. Fedora Silverblue (inside fedora toolbox).
     
-If your distro is not supported by the installer please refer to the [wiki](https://github.com/j0shua-daniel/vm-mgr/wiki).
+If your distro is not supported by the installer please refer to the [wiki](https://luke-gardening-ver-total.trycloudflare.com/wiki/).
 
 ## Usage:
 
