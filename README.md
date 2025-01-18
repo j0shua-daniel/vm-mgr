@@ -1,8 +1,8 @@
 # Virtual Machine Manager
 
-[Website](https://luke-gardening-ver-total.trycloudflare.com/) & [Wiki](https://luke-gardening-ver-total.trycloudflare.com/wiki/)
+[Website](https://danger-tattoo-concluded-agenda.trycloudflare.com/) & [Wiki](https://danger-tattoo-concluded-agenda.trycloudflare.com/wiki/)
 
-<a href="https://luke-gardening-ver-total.trycloudflare.com/">
+<a href="https://danger-tattoo-concluded-agenda.trycloudflare.com/">
 <p align="center" width="100%">
     <img width="270px" src="https://github.com/j0shua-daniel/images/blob/main/favcon.png?raw=true"> 
 </p>
@@ -34,7 +34,7 @@ Distros supported by the installer:
 11. Clear Linux.
 12. Fedora Silverblue (inside fedora toolbox).
     
-If your distro is not supported by the installer please refer to the [wiki](https://luke-gardening-ver-total.trycloudflare.com/wiki/).
+If your distro is not supported by the installer please refer to the [wiki](https://danger-tattoo-concluded-agenda.trycloudflare.com/wiki/).
 
 ## Usage:
 
