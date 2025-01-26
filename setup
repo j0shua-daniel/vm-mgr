@@ -1,5 +1,15 @@
 #!/bin/bash
 
+echo "Welcome to vm-mgr installer!"
+
+echo "Going to install qemu & kvm packages in:"
+echo "3"
+sleep 0.8
+echo "2"
+sleep 0.8
+echo "1"
+sleep 0.8
+
 sudo curl -o /usr/bin/vm-mgr https://raw.githubusercontent.com/j0shua-daniel/vm-mgr/refs/heads/main/vm-mgr
 sudo chmod +x /usr/bin/vm-mgr; mkdir -p ~/.config/vm-mgr/
 
