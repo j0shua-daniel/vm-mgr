@@ -11,7 +11,7 @@ echo "1"
 sleep 0.8
 
 sudo curl -o /usr/bin/vm-mgr https://raw.githubusercontent.com/j0shua-daniel/vm-mgr/refs/heads/main/vm-mgr
-sudo chmod +x /usr/bin/vm-mgr; mkdir -p ~/.config/vm-mgr/
+sudo chmod +x /usr/bin/vm-mgr; mkdir -p ~/.vm-mgr/
 
 
 if [ -x "$(command -v apk)" ];
