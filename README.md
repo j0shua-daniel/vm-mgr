@@ -13,6 +13,8 @@
 
 ## Install:
 
+The default directory for qcow2 disk is `~/.vm-mgr/`
+
 To install vm-mgr, run:
 
 ```
