@@ -36,7 +36,7 @@ Distros supported by the installer:
 11. Clear Linux.
 12. Fedora Silverblue (inside fedora toolbox).
     
-If your distro is not supported by the installer please refer to the [wiki](https://period-first-dialog-sims.trycloudflare.com/wiki).
+If your distro is not supported by the installer please refer to the [wiki](https://github.com/j0shua-daniel/vm-mgr/wiki).
 
 ## Usage:
 
