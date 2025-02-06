@@ -27,7 +27,7 @@ Distros supported by the installer:
 2. Arch/Arch based.
 3. OpenSUSE.
 4. RHEL/Fedora/RHEL based.
-5. Alpine.
+5. Alpine(there are issues please refer to wiki if script doesn't work!).
 6. Void.
 7. ~~Nixos~~ (comming soon!)
 8. ~~Gentoo~~ (comming soon!)
